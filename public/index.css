@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: #9869b8;
+  background:#fff;
   text-align: center;
   font-weight: 100;
   font-size: 20px;
@@ -12,23 +12,24 @@ body {
 
 h1 {
   text-align: center;
-  color:  #41334b;
+  color:  #7e4674;
   padding: 2rem 15rem;
   font-weight: lighter;
 }
 
 input {
   background-color: transparent;
-  border: none;
-  border-bottom: 1.5px solid#41334b;
-  width: 400px;
-  color: #41334b;
+  border: 1.5px solid #7e4674;
+  width: 600px;
+  padding: 10px 20px;
+  color: #7e4674;
   font-size: 18px;
   margin-bottom: 3%;
+  box-shadow: 0 0 20px #be6baf;
 }
 
 input::placeholder{
-  color: #41334b;
+  color: #7e4674;
 }
 
 input:focus {
@@ -44,7 +45,7 @@ input:focus {
 
 .photo {
   width: 60%;
-  background-color:#41334b;
+  background-color :#7e4674;
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.0975);
   max-width: 400px;
@@ -86,7 +87,7 @@ input:focus {
   margin-bottom: 10px;
   font-size: 18px;
   text-align: left;
-  color: #e7e3e0;
+  color:#f08cdd;
 }
 
 .photo__icon:first-child {
@@ -99,13 +100,13 @@ input:focus {
   display: block;
   text-align: left;
   /*margin-left: 10px;*/
-  color: #e7e3e0;
+  color:#f08cdd;
 }
 
 .photo__comment {
   margin-bottom: 10px;
   text-align: left;
-  color: #e7e3e0;
+  color:#f08cdd;
 }
 
 .photo__comment-author {
@@ -115,7 +116,7 @@ input:focus {
 }
 
 .photo__time-ago {
-  color: #999;
+  color:  #f08cdd;
   text-transform: uppercase;
   font-size: 10px;
   padding-bottom: 10px;
@@ -151,5 +152,5 @@ input:focus {
 
 a{
   text-decoration: none;
-  color:#806196;
+  color: #af60a1;
 }
