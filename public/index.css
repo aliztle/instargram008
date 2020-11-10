@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  background: #f7a5f0;
+  background: #9869b8;
   text-align: center;
   font-weight: 100;
   font-size: 20px;
@@ -12,24 +12,23 @@ body {
 
 h1 {
   text-align: center;
-  color:  #b645e2;
+  color:  #41334b;
   padding: 2rem 15rem;
   font-weight: lighter;
 }
 
 input {
   background-color: transparent;
-  border: 2px solid#b645e2;
-  border-radius: 24px;
-  padding: 10px;
+  border: none;
+  border-bottom: 1.5px solid#41334b;
   width: 400px;
-  color: #b645e2;
+  color: #41334b;
   font-size: 18px;
   margin-bottom: 3%;
 }
 
 input::placeholder{
-  color:  #b645e2;
+  color: #41334b;
 }
 
 input:focus {
@@ -45,7 +44,7 @@ input:focus {
 
 .photo {
   width: 60%;
-  background-color:#fff;
+  background-color:#41334b;
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.0975);
   max-width: 400px;
@@ -100,7 +99,7 @@ input:focus {
   display: block;
   text-align: left;
   /*margin-left: 10px;*/
-  color: #000;
+  color: #e7e3e0;
 }
 
 .photo__comment {
@@ -152,5 +151,5 @@ input:focus {
 
 a{
   text-decoration: none;
-  color:#000;
+  color:#806196;
 }
